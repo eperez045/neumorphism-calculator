@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="ab6f2d307e0aa6fc1438b0efadced34d-calculadora-de-carrera-plana-by-vexels.png" type="image/x-icon">
+
+    
+</head>
+<body>
+    <div class="container">
+    <table class="cform">
+        <tr>
+          <td colspan="4"><button class="pantalla" id="result">0</button></td>
+        </tr>
+        <tr>
+          <td><button class="boton" onclick="add('1')">1</button></td>
+          <td><button class="boton" onclick="add('2')">2</button></td>
+          <td><button class="boton" onclick="add('3')">3</button></td>
+          <td><button class="boton" onclick="add('+')">+</button></td>
+        </tr>
+        <tr>
+          <td><button class="boton" onclick="add('4')">4</button></td>
+          <td><button class="boton" onclick="add('5')">5</button></td>
+          <td><button class="boton" onclick="add('6')">6</button></td>
+          <td><button class="boton" onclick="add('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="boton" onclick="add('7')">7</button></td>
+          <td><button class="boton" onclick="add('8')">8</button></td>
+          <td><button class="boton" onclick="add('9')">9</button></td>
+          <td><button class="boton" onclick="add('*')">*</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button class="boton" onclick="add('0')">0</button></td>
+          <td><button class="boton" onclick="add('.')">.</button></td>
+          <td><button class="boton" onclick="add('/')">/</button></td>          
+        </tr>
+        <tr>
+          <td><button class="boton" onclick="del()">CE</button></td>
+          <td colspan="3"><button class="boton" onclick="calc()">=</button></td>            
+        </tr>
+      </table>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
